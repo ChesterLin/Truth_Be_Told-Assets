@@ -1,0 +1,19 @@
+<root>
+  <styles>
+    <include src="file://{resources}/styles/custom_game/summoner_spell_bar_ability.css" />
+  </styles>
+  <scripts>
+    <include src="file://{resources}/scripts/custom_game/summoner_spell_bar_ability.js" />
+  </scripts>
+  
+  <Panel class="AbilityPanel">
+    <Button id="AbilityButton">
+      <DOTAAbilityImage id="AbilityImage" />
+      <Panel id="Cooldown">
+        <Panel id="CooldownOverlay" />
+        <Label id="CooldownTimer" />
+      </Panel>
+      <Panel id="ActiveAbility" />
+    </Button>
+  </Panel>
+</root>

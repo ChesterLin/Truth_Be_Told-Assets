@@ -1,0 +1,12 @@
+<root>
+  <styles>
+		<include src="file://{resources}/styles/custom_game/summoner_spell_bar.css" />
+	</styles>
+  <scripts>
+		<include src="file://{resources}/scripts/custom_game/summoner_spell_bar.js" />
+	</scripts>
+
+  <Panel class="SummonerSpellHudContainer">
+      <Panel id="summoner_spell_list" />
+  </Panel>
+</root>

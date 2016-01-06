@@ -1,0 +1,6 @@
+<root>
+  <Panel>
+    <!-- <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/action_bar.xml" /> -->
+    <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/summoner_spell_bar.xml" />
+  </Panel>
+</root>

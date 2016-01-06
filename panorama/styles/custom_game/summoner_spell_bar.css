@@ -1,0 +1,16 @@
+.SummonerSpellHudContainer
+{
+	horizontal-align: right;
+	vertical-align: bottom;
+  margin-right: 340px;
+	margin-bottom: 180px;
+	flow-children: down;
+}
+
+#summoner_spell_list
+{
+  flow-children: right;
+  border: 2px solid black;
+  background-color: #272823;
+}
+
